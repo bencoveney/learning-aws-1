@@ -9,6 +9,7 @@
     "body-parser": "latest"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "zip": "zip nodejs-tutorial.zip -r * .[^.]*"
   }
 }
